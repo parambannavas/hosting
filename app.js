@@ -79,6 +79,6 @@ nav,
 title:"Library"
 }
 )});
-app.listen(3001,()=>{
-    console.log("listening to port "+chalk.green('3001') );
+app.listen(process.env.PORT||3001,()=>{
+    console.log('server started');
 })
