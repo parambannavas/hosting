@@ -58,7 +58,7 @@ app.use('/view',viewRouter);
 app.use('/search',searchRouter);
 app.use('/edde',eddeRouter);
 
-mongoose.connect("mongodb://localhost:27017/MyCollegeDb");
+mongoose.connect("mongodb+srv://Paramban:Pnavasp@cluster0-ykie2.mongodb.net/test?retryWrites=true&w=majority");
 
 app.set('views','./src/views');
 app.set('view engine','ejs');
